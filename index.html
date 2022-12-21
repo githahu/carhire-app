@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Cars</title>
+<link rel="stylesheet" href="/resources/style.css">
+<!-- Remix icon library -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> 
+
+<!-- Swiper css-->
+<link rel="stylesheet" href="/resources/css/swiper-bundle.min.css">
+<!-- css-->
+<link rel="stylesheet" href="/resources/css/style.css">
+<style>
+    body {
+       background-image: url("/resources/images/back.jpg");
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+    }
+ </style>
+
+
+
+</head>
+<body>
+    <p style="background-image: url(/resources/images/back.jpg);"></p>
+
+    <!-- Header Section-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_log">
+                <i class="ri-roadster-fill"></i>
+                Eco Cars 
+            </a> 
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">About</a>
+                    </li>
+                    
+                    <li class="nav_item">
+                        <a href="#available" class="nav_link">Available</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#app" class="nav_link download_link">Download</a>
+                    </li>
+                </ul>
+                
+                <div class="nav_close" id="nav-close">
+                    <i class="ri-close-circle-line"></i>
+                </div> 
+
+                
+            </div>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+
+        </nav>
+    </header>
+    <main class="main">
+        <!-- Home Section -->
+        <section class="section home" id="home">
+        <section class="section about" id="about">
+
+        </section></div>
+            <div class="container home_container grid">
+                <div class="home_data">
+                   
+                    <h1 class="home_title">
+                        Economical / Low fuel consumption Cars available for use anytime, anywhere.
+                        <p class="home_description">
+                            <strong>Browse and select the car or cars that suits your short or long journey, pocket friendly and nice looking.</strong>
+                        </p>
+
+                       
+                        
+                    </div>
+            </div>
+            <span class="home_value-description">Happy Customers</span>
+            <div class="home_img">
+                
+                <img src="/resources/images/hap1.jpeg" alt="Happy Customers" class="src">
+                <img src="/resources/images/hap2.jpeg" alt="Happy Customers" class="src">
+                <img src="/resources/images/hap3.jpeg" alt="Happy Customers" class="src">
+                <img src="/resources/images/hap4.jpeg" alt="Happy Customers" class="src">
+                <img src="/resources/images/hap5.jpeg" alt="Happy Customers" class="src">
+                
+            </div>
+        </section>
+
+
+       
+       </section>
+      
+
+       <!-- Available cars Section -->
+       <section class="section available" id="available">
+            <!-- <img src="/resources/images/images (8).jpeg" class="available-bg "alt="Available" class="src"> -->
+
+            <div class="container available_container swiper">
+                <h2 class="section_title">Available and Most Preferred Cars</h2>
+
+                <div class="available_cards swiper-wrapper">
+                    <!-- Available car 1 -->
+                    <article class="available_card swiper-slide">
+                        <h3 class="car-name">Premio</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/images (7).jpeg" /><br>
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 200 km/h<br>
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2018</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 4,000</span>
+                        </div>
+                        <div class="car-btns">
+                           
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                             
+                            </form> 
+                     
+                        </div>
+                    </article>
+
+                      <!-- Available car 2 -->
+                      <article class="available_card swiper-slide">
+                        <h3 class="car-name">Mazda</h3>
+                        <span class="car-make">Nissan </span>
+                        <div class="car_img">
+                            <img src="/resources/images/mazda.jpeg" />
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 180 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2019</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 3,500</span>
+                        </div>
+                        <div class="car-btns">
+                         
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+
+                    <!-- Available car 3 -->
+                    <article class="available_card swiper-slide">
+                        <h3 class="car-name">Renault</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/ren2015.jpeg" alt="Renault"/>
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 200 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2015</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 4,000</span>
+                        </div>
+                        <div class="car-btns">
+                          
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+                     <!-- Available car 4 -->
+                     <article class="available_card swiper-slide">
+                        <h3 class="car-name">Audi</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/audi.jpeg" alt="Audi" />
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 220 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2015</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 4,200</span>
+                        </div>
+                        <div class="car-btns">
+                          
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+                     <!-- Available car 5 -->
+                     <article class="available_card swiper-slide">
+                        <h3 class="car-name">Vitz</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/vitz1.jpeg" alt="Vitz 2020" />
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 160 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2015</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 3,200</span>
+                        </div>
+                        <div class="car-btns">
+                          
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+                     <!-- Available car 6 -->
+                     <article class="available_card swiper-slide">
+                        <h3 class="car-name">Axio</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/axio.jpeg" alt="Axio 2018" />
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 180 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2015</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 4,000</span>
+                        </div>
+                        <div class="car-btns">
+                          
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+                     <!-- Available car 7 -->
+                     <article class="available_card swiper-slide">
+                        <h3 class="car-name">Vitz</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/vitz2.jpeg" alt="Vitz"/>
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 160 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2015</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 3,200</span>
+                        </div>
+                        <div class="car-btns">
+                          
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+                     <!-- Available car 8 -->
+                     <article class="available_card swiper-slide">
+                        <h3 class="car-name">Axio</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/axio2.jpeg" alt="Axio" />
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 200 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2015</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 3,200</span>
+                        </div>
+                        <div class="car-btns">
+                          
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+                     <!-- Available car 9 -->
+                     <article class="available_card swiper-slide">
+                        <h3 class="car-name">Honda</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/honda.jpeg" alt="Honda" />
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 220 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2015</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 4,000</span>
+                        </div>
+                        <div class="car-btns">
+                          
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+                     <!-- Available car 10 -->
+                     <article class="available_card swiper-slide">
+                        <h3 class="car-name">Hyundai</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/hyundai1.jpeg" alt="Hyundai" />
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 260 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2015</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 4,200</span>
+                        </div>
+                        <div class="car-btns">
+                          
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+                     <!-- Available car 11 -->
+                     <article class="available_card swiper-slide">
+                        <h3 class="car-name">Hyundai</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/hyundai2.jpeg" alt="Hyundai" />
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 260 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2015</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 4,200</span>
+                        </div>
+                        <div class="car-btns">
+                          
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+                     <!-- Available car 12 -->
+                     <article class="available_card swiper-slide">
+                        <h3 class="car-name">Rav 4</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/mitsubishi-logo (1).png" alt="Mitsubishi" />
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 200 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2015</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 3,500</span>
+                        </div>
+                        <div class="car-btns">
+                          
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+                     <!-- Available car 13 -->
+                     <article class="available_card swiper-slide">
+                        <h3 class="car-name">Renault</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/ren2015.jpeg" />
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 260 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2015</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 4,200</span>
+                        </div>
+                        <div class="car-btns">
+                          
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+                     <!-- Available car 14 -->
+                     <article class="available_card swiper-slide">
+                        <h3 class="car-name">Rush</h3>
+                        <span class="car-make">Toyota </span>
+                        <div class="car_img">
+                            <img src="/resources/images/rush.jpeg" alt="Rush" />
+                        </div>
+                        <div class="car_details">
+                            <span class="speed">
+                                <i class="ri-dashboard-3-line"></i> 200 km/h
+                            </span>
+                            <div class="car-line"></div>
+                            <span class="year">2015</span>
+                            <div class="car-line"></div>
+                            <span class="span">Rent per day is Kshs 3,800</span>
+                        </div>
+                        <div class="car-btns">
+                          
+                            <div>
+                              <form action="/action_page.php">
+                              <label for="name">Your name:</label><br><br>
+                              <input type="text" id="name" name="name" value="First and Second Name"><br><br>
+                              <label for="pnumber">Phone number:</label><br><br>
+                              <input type="number" id="pnumber" name="pnumber" value="0700000000"><br><br>
+                              <label for="model">Model:</label>
+                              <input type="text" id="model" name="model"><br>
+                              <label for="datemin">From:</label>
+                              <input type="date" id="datemin" name="datemin" min=" "><br><br>
+                              <label for="datemax">To: </label>
+                              <input type="date" id="datemax" name="datemin" max=""><br><br>
+                              <input type="submit" value="Hire">
+                            </form> 
+                     
+                        </div>
+                    </article>
+                 </div>
+
+                 <div class="swiper-pagination"></div>   
+                
+            </div>
+       </section>
+
+    <!--App section -->
+
+    <section class="section app" id="app">
+        <div class="container app_container grid">
+            <div class="app_img">
+                <img src="/resources/images/appphone.png" alt="car rental app">
+
+            </div>
+            <div class="app_data">
+                <h2 class="section_title">
+                    Eco Cars for Mobile devices.
+                </h2>
+                <p class="app_description">
+                    Get the app today by dowloading it and enjoy steady and uninterrupted car rent services 24/7. This app makes it easy to meet your needs of a car for travelling wherever you want.
+                </p>
+                <div class="app_btns">
+                    <div class="android-btn">
+                        <a href="#">
+                            <img src="/resources/images/storapp.jpeg" alt="Android Phone logo"> Download for Android
+                
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer section">
+        <div class="container footer_container">
+            <div class="footer_data grid">
+                <div class="logo-info footer-box">
+                    <a href="#" class="nav_log">
+                        <i class="ri-roadster-fill"></i>
+                        EcoCars
+                    </a>
+                    <p class="footer_description">
+                        We are reacheable anytime within Murang'a, but our offices are located in Mukuyu Building 1<sup>st</sup> floor, office No. 3A.
+                    </p>
+
+                </div>
+                <div class="information footer-box">
+                    <h3 class="footer_title">
+                        Information
+                    </h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="company footer-box">
+                    <h3 class="footer_title">Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="socialMedia footer-box">
+                    <h3 class="footer_title">Follow Us On
+                        <ul>
+                            <li><a href="#"><i class="ri-facebook-circle-fill"></i></a></li>
+                            <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+                        </ul>
+                    </h3>
+                </div>
+            </div>
+            <div class="copyrights">
+                <div class="footer-line">
+                    <small>&copy; Githahu All rights reserved</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </main>
+
+    
+
+    <!-- swiper js -->
+ <script src="/resources/js/swiper-bundle.min.js"></script>
+  
+<!--Main js -->
+<script src="/resources/js/main.js"></script>
+</body>
+</html>
