@@ -428,8 +428,19 @@ app._data h2 {
     width: 25px;
     margin-right: 0.5rem;
 
+}
 
 
+
+/* comments section */
+
+}
+#comment-box, #post {
+    border: none;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color: deeppink;
 }
 
 /* footer section */
