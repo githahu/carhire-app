@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eco Cars</title>
-<link rel="stylesheet" href="/resources/style.css"> 
+<link rel="stylesheet" href="./resources/style.css"> 
 <!-- Remix icon library -->
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> 
 
@@ -80,7 +80,13 @@
                             <strong>Browse and select the car or cars that suits your short or long journey, pocket friendly and nice looking.</strong>
                         </p>
 
-                       
+                       <div class="home_flex">
+                            <div class="home-btn">
+                                <a href="#about" class="home-button">Start Here <i class="ri-arrow-right-down-fill"></i></a>
+                            </div>
+                        
+                        </div>
+
                         
                     </div>
             </div>
@@ -348,7 +354,10 @@
                         </div>
                     </article>
                  </div>
-                
+                <div class="swiper-pagination"></div>
+                </section>
+           <!-- booking section -->
+                <section>
                  <div>
                      <p> For Booking enter your details here and chose the car of your choice </P>
                               <form action="/action_page.php">
@@ -365,11 +374,10 @@
                               <input type="submit" value="Submit">
                             </form> 
                 </div>
+                </section>
 
-                 <div class="swiper-pagination"></div>   
-                
-            </div>
-       </section>
+               
+              
 
     <!--App section -->
 
@@ -400,13 +408,12 @@
     </section>
     
     <!-- coments section -->
-    
-    
-     <input type="text" id="comment-box" placeholder="Enter comment">
-    <button id="post">Post</button>
-    <ul id="unordered">
-       
-   </ul>
+    <section class="comments" id="views"> 
+        <div class="container comments_container grid">
+               <input type="text" id="comment-box" placeholder="Enter comment">
+               <button id="post">Post</button>
+               <ul id="unordered"></ul>
+    </section>     
    
   
 
@@ -459,9 +466,11 @@
         </div>
     </footer>
     </main>
-
+    
+ <!-- swiper js -->
+ <script src="/resources/js/swiper-bundle.min.js"></script>
     <!-- comments section -->
-      <script src="main.js"></script> 
+      <script src="./main.js"></script> 
 
  
   
