@@ -135,12 +135,12 @@ img {
     color:aquamarine;
 }
 
-/* .nav_toggle {
+.nav_toggle {
     font-size: 1.5rem;
     cursor: pointer;
     color:#94115d;
     position:calc();
-} */
+}
 
 @media screen and (max-width: 700px) {
     .nav_menu { 
@@ -183,6 +183,20 @@ img {
     cursor:progress;
 }
 
+/* from 187 to 199 changed */
+.download_link {
+    font-size:smaller;
+    padding: 1rem 2rem;
+    background-color: mediumspringgreen;
+    border-radius: 60px;
+    color:blue;
+
+}
+
+.download_link:hover {
+    background-color: brown;
+    color:beige;
+}
 
 
 /*show menu */
@@ -191,9 +205,9 @@ img {
     right: 0;
 }
 
-/* change background color*/
+/* change background color */
 .scroll-header {
-    background-color: rgb(97, 63, 12);
+    background-color: rgb(107, 83, 92);
 }
 
 /* Active link */
@@ -438,9 +452,13 @@ app._data h2 {
 #comment-box, #post {
     border: none;
     border-radius: 5px;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    
 }
 #post:hover{
     background-color: deeppink;
+    
 }
 
 /* footer section */
@@ -510,7 +528,7 @@ app._data h2 {
 
 /* For small devices */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 3000px) {
     .container {
         margin-left: 1rem;
         margin-right: 1rem;
