@@ -454,12 +454,12 @@ app._data h2 {
     border-radius: 5px;
     
 }
-.button:hover{
+.btn:hover{
     background-color: deeppink;
     
     
 }
-.button {
+.btn {
   background-color: #4CAF50;
   border: none;
   color: white;
