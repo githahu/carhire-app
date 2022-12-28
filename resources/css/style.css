@@ -452,8 +452,6 @@ app._data h2 {
 #comment-box, #post {
     border: none;
     border-radius: 5px;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
     
 }
 #post:hover{
